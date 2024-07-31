@@ -8,6 +8,7 @@ export default function Modal2({setModal}){
       <div className="modal2">
         <form className="record-left2" action="/api/food/add" method="POST" >
           <h1>음식을 추가해주세요</h1>
+          <h2>(100g 기준)</h2>
           <input type="text" name="title" placeholder="음식 이름" required step="0.01" min="0" />
           <input type="number" name="carb" placeholder="탄수화물" required step="0.01" min="0" />
           <input type="number" name="protein" placeholder="단백질" required step="0.01" min="0" />

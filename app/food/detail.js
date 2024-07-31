@@ -91,7 +91,7 @@ export default function Detail(){
         }
         <p className="food-add" onClick={() => {
           setModal(true);
-        }}>+</p>
+        }}>데이터 추가 +</p>
       </div>
     </div>
     </>

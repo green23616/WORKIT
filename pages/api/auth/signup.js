@@ -17,6 +17,6 @@ export default async function handler(req, res){
     }
     
     await db.collection('user_cred').insertOne(req.body);
-    res.redirect('/register/hello')
+    res.redirect(302, '/hello')
   }
 }

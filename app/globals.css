@@ -540,15 +540,18 @@ img{vertical-align: middle;}
 }
 .food-add{
   cursor: pointer;
-  font-size: 40px;
+  font-size: 28px;
   position: absolute;
   transition: 0.1s all linear;
   top: 21%;
-  right: 20%;
+  right: 10%;
+  border: 2px solid #000000;
+  border-radius: 5px;
+  padding: 8px;
 }
 .food-add:hover{
-  scale: 1.5;
-  color: red;
+  color: white;
+  background-color: #53baf6;
 }
 /* 음식검색 메인 끝 */
 
